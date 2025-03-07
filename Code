@@ -158,7 +158,9 @@ namespace ConsoleApp2
             }
             else
             {
+                Console.Clear();
                 Console.WriteLine("Invalid Input");
+                NAC();
             }
         }
         public static void NAC3()
